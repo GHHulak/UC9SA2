@@ -1,0 +1,27 @@
+a{
+    color: black;
+}
+
+img{
+    position: absolute;
+    width: 159px;
+height: 75px;
+left: 640px;
+top: 4px;
+background: url(logo.png);
+}
+
+header{
+    background-color: white;
+    box-sizing: border-box;
+
+position: absolute;
+width: 1440px;
+height: 80px;
+left: 0px;
+top: 67px;
+
+background: #FFFFFF;
+border: 1px solid #000000;;
+    
+}
