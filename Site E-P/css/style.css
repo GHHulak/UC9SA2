@@ -1,27 +1,109 @@
-a{
-    color: black;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Titillium+Web&display=swap');
+
+
+
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-img{
-    position: absolute;
-    width: 159px;
-height: 75px;
-left: 640px;
-top: 4px;
-background: url(logo.png);
+a{
+    color: rgb(0, 0, 0);
 }
+
 
 header{
     background-color: white;
-    box-sizing: border-box;
+    height: 80px;
+    padding-top: 20px;
+}
 
-position: absolute;
-width: 1440px;
-height: 80px;
-left: 0px;
-top: 67px;
+.container-grid{
+    width: 1200px;
+    margin: 0 auto;
+}
 
-background: #FFFFFF;
-border: 1px solid #000000;;
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase; 
+    font-family: "Roboto";
+}
+
+.menu{
+    position: absolute;
+    width: 501px;
+    height: 22px;
+    left: 70px;
+    top: 107px;
+
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
     
+}
+
+.rec{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    border: 1px solid #000000;;
+    margin-top: 10px;
+}
+.banner{
+    height: 530px;
+    background-image: url(../img/hb.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}   
+
+.bannerw h1{
+    position: absolute;
+    width: 172px;
+    height: 66px;
+    left: 560px;
+    top: 545px;
+
+    color: #000000;
+    font-family: "Roboto";
+    text-transform: uppercase;
+    font-size: 32;
+    font-weight: 700;
+    line-height: 38px;
+    transform: rotate(1.53deg);
+}
+
+.bannerw img{
+    position: absolute;
+    width: 865.62px;
+    height: 102.39px;
+    left: 220px;
+    top: 515px;
+    backdrop-filter: blur(2px);
+    transform: rotate(0.61deg);
+}
+
+
+
+.logo{
+    position: absolute;
+    width: 150px;
+    height: 75px;
+    left: 590px;
+    top: 20px;
+}
+
+.jogos{
+    background-color: rgb(255, 255, 255);
+    border: #000000;
+    height: 121px;
+    padding: 25px;
 }
