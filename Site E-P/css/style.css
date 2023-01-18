@@ -13,6 +13,7 @@ a{
     color: rgb(0, 0, 0);
 }
 
+body { overflow-x: hidden; }
 
 header{
     background-color: white;
@@ -31,6 +32,14 @@ header{
     align-items: center;
 }
 
+.logo{
+    margin: auto;
+    display: block;
+    width: 15%;
+    height: 121px;
+    padding: 25px;
+}
+
 .menu a{
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -39,17 +48,31 @@ header{
 }
 
 .menu{
-    position: absolute;
+    position: relative;
     width: 501px;
     height: 22px;
-    left: 70px;
-    top: 107px;
+    left: 10px;
+    bottom: 46px;
 
     width: 400px;
     display: flex;
     justify-content: space-between;
-    
 }
+
+.icons{
+    position: relative;
+    bottom: 47px;
+    left: 50px;
+}
+
+.login{
+    left: 230px;
+}
+
+.cart{
+    left: 400px;
+}
+
 
 .rec{
     background-color: rgb(255, 255, 255);
@@ -57,53 +80,1300 @@ header{
     border: 1px solid #000000;;
     margin-top: 10px;
 }
+
 .banner{
-    height: 530px;
-    background-image: url(../img/hb.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}   
-
-.bannerw h1{
-    position: absolute;
-    width: 172px;
-    height: 66px;
-    left: 560px;
-    top: 545px;
-
-    color: #000000;
-    font-family: "Roboto";
-    text-transform: uppercase;
-    font-size: 32;
-    font-weight: 700;
-    line-height: 38px;
-    transform: rotate(1.53deg);
-}
-
-.bannerw img{
-    position: absolute;
-    width: 865.62px;
-    height: 102.39px;
-    left: 220px;
-    top: 515px;
-    backdrop-filter: blur(2px);
-    transform: rotate(0.61deg);
+    
 }
 
 
+.bannervec img{
+    position: relative;
+    width: 50%;
+    top: 370px;
+    padding: 20px;
+}
 
-.logo{
-    position: absolute;
-    width: 150px;
-    height: 75px;
-    left: 590px;
-    top: 20px;
+.conteudo-banner{
+    width: 1000px;
 }
 
 .jogos{
     background-color: rgb(255, 255, 255);
     border: #000000;
+    height: 140px;
+    border: 1px solid #000000;;
+}
+
+.linha{
+    margin-top: 10px;
+}
+
+.posicionamento-jogos{
+    height: 100%;
+    margin: 20px;
+    position: relative;
+    left: 50px;
+}
+
+.container{
+    max-width: 1200px;
+    
+}
+
+.jogosc{
+    border: 1px solid #000000;
+
+}
+
+.listra{
+    position: relative;
+    width: 100%;
+    left: 150px;
+    top: 160px;
+}
+
+.banner-jogos{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    display: block;
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-left: 1px solid #000000;
+}
+
+
+.cards{
+    border: 2px solid #000000;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.CardsD{
+    border: 2px solid #000000;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.card{
+    background-color: #e2e2e2;
+    border: 2px solid black;
+    justify-content: space-between;
+    justify-items: auto;
+    align-items: center;
+    display: flex;
+}
+
+
+.indie h1{
+    position: absolute;
+width: 638px;
+height: 263px;
+left: 71px;
+top: 2000px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+
+.fundo{
+    position: absolute;
+width: 462.43px;
+height: 55.92px;
+left: 147.6px;
+top: 1887px;
+}
+
+.indie h2{
+    position: absolute;
+width: 326px;
+height: 39px;
+left: 227px;
+top: 1900px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+
+.indieimg{
+    position: absolute;
+width: 541.18px;
+height: 408px;
+left: 710px;
+top: 1900px;
+}
+
+.logo2{
+    position: relative;
+    margin: auto;
+    display: block;
+    width: 15%;
     height: 121px;
     padding: 25px;
+    top: 70px;
+}
+
+.contato{
+    height: 256px;
+    position: relative;
+    top: 460px;
+    border: 1px solid #000000;
+}
+
+.hm{
+    display: none;
+}
+
+.collapse{
+    height: 50px;
+}
+
+.hdcard{
+    display: none;
+    vertical-align: auto;
+}
+
+.carda{
+    display: none;
+}
+
+.cardsb{
+     padding: 20px;
+     border-bottom: 2px solid #000000;
+     border-right: 2px solid #000000;
+     border-left: 2px solid #000000;
+     display: none;
+}
+
+.indie h3{
+    display: none;
+}
+
+.Eme{
+    position: absolute;
+    left: 61px;
+    bottom: 190px;
+
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+
+color: #000000;
+}
+
+.Rd{
+    position: absolute;
+left: 60px;
+bottom: 20px;
+
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 700;
+font-size: 23px;
+line-height: 35px;
+
+color: #000000;
+
+}
+
+.tt{
+    position: relative;
+    left: 240px;
+    top: 40px;
+}
+
+.insta{
+    position: relative;
+    left: 250px;
+    top: 40px;
+}
+
+.face{
+    position: relative;
+    left: 260px;
+    top: 40px;
+}
+
+.navbar{
+    position: relative;
+    left: 50px;
+    bottom: 70px;
+}
+
+.Links{
+    position: absolute;
+left: 9.72%;
+left: 1050px;
+top: 50px;
+bottom: 7.25%;
+
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 37px;
+
+color: #000000;
+}
+
+.pag{
+    position: absolute;
+    left: 900px;
+    top: 50px;
+bottom: 7.25%;
+
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 37px;
+
+color: #000000;
+}
+
+.CdA{
+    
+position: absolute;
+left: 1065px;
+bottom: 130px;
+
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+
+color: #000000;
+}
+
+.Ctt{
+    
+position: absolute;
+left: 1065px;
+bottom: 110px;
+
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+
+color: #000000;
+}
+
+.Att{
+    
+position: absolute;
+left: 1065px;
+bottom: 90px;
+
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+
+color: #000000;
+}
+
+.Pag{
+    
+position: absolute;
+left: 1065px;
+bottom: 70px;
+
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+
+color: #000000;
+}
+
+.It{
+    position: absolute;
+    left: 910px;
+    top: 90px;
+    
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #000000;
+    
+}
+
+.Comp{
+    position: absolute;
+    left: 910px;
+    top: 110px;
+    
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #000000;
+    
+}
+
+.Sob{
+    position: absolute;
+    left: 910px;
+    top: 130px;
+    
+    font-family: 'Titillium Web';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #000000;
+    
+}
+
+.Atd{
+    position: absolute;
+    left: 910px;
+    top: 150px;
+
+font-family: 'Titillium Web';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+
+color: #000000;
+
+}
+
+.email{
+    position: relative;
+    left: 50px;
+    bottom: 57px;
+}
+
+@media screen and (max-width: 1200px) {
+    .hm{
+        display: flex;
+        position: relative;
+        bottom: 49px;
+        right: 180px;
+        width: 10%;
+    }
+
+
+
+    .btn-outline-success{
+       border: 1px solid #000000;
+    }
+
+    .icons{
+        display: none;
+    }
+    
+    .menu{
+        position: relative;
+        left: 10px;
+        bottom: 45px;
+        justify-content: space-between;
+        display: flex;
+    }
+
+    .fundo{
+        position: absolute;
+    width: 462.43px;
+    height: 55.92px;
+    left: 325px;
+    top: 2230px;
+    }
+    
+    .indie h2{
+        position: absolute;
+    width: 326px;
+    height: 39px;
+    left: 405px;
+    top: 2245px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+    }
+    
+    .indieimg{
+        position: absolute;
+    width: 420px;
+    height: 304px;
+    left: 350px;
+    top: 1900px;
+    }
+
+    .indie h1{
+        position: relative;
+        top: 470px;
+        left: 250px;
+    }
+
+    .logo2{
+        position: relative;
+        margin: auto;
+        display: block;
+        width: 15%;
+        height: 121px;
+        padding: 25px;
+        top: 70px;
+        right: 35px;
+    }
+    
+    .contato{
+        height: 256px;
+        width: 100%;
+        position: absolute;
+        top: 2600px;
+        border: 1px solid #000000;
+    }
+
+    .Links{
+        left: 870px;
+    }
+
+    .pag{
+        left: 730px;
+    }
+
+    .CdA{
+        left: 880px;
+        }
+        
+        .Ctt{
+        left: 880px;
+        }
+        
+        .Att{
+        left: 880px;
+        }
+        
+        .Pag{
+        left: 880px;
+        }
+        
+        .It{
+            left: 750px;         
+        }
+        
+        .Comp{
+            left: 750px;    
+        }
+        
+        .Sob{
+            left: 750px;
+        }
+        
+        .Atd{
+            left: 750px;
+        }
+
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .hm {
+        display: block;
+        position: relative;
+        bottom: 49px;
+        right: 300px;
+    }
+
+    .btn-outline-success{
+       border: 1px solid #000000;
+    }
+
+    .fundo{
+        position: absolute;
+    width: 462.43px;
+    height: 55.92px;
+    left: 225px;
+    top: 2130px;
+    }
+    
+    .indie h2{
+        position: absolute;
+    width: 326px;
+    height: 39px;
+    left: 305px;
+    top: 2145px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+    }
+    
+    .indieimg{
+        position: absolute;
+    width: 420px;
+    height: 304px;
+    left: 250px;
+    top: 1800px;
+    }
+
+    .indie h1{
+        position: absolute;
+        top: 2200px;
+        left: 150px;
+    }
+
+    .logo2{
+        position: relative;
+        margin: auto;
+        display: block;
+        width: 15%;
+        height: 121px;
+        padding: 25px;
+        right: 35px;
+    }
+    
+    .contato{
+        display: block;
+        position: absolute;
+        width: 100%;
+        top: 2480px;
+        border: 1px solid #000000;
+    }
+
+    .Links{
+        left: 800px;
+    }
+
+    .pag{
+        left: 650px;
+    }
+
+    .CdA{
+        left: 810px;
+        }
+        
+        .Ctt{
+        left: 810px;
+        }
+        
+        .Att{
+        left: 810px;
+        }
+        
+        .Pag{
+        left: 810px;
+        }
+        
+        .It{
+            left: 660px;         
+        }
+        
+        .Comp{
+            left: 660px;    
+        }
+        
+        .Sob{
+            left: 660px;
+        }
+        
+        .Atd{
+            left: 660px;
+        }
+
+
+}
+
+@media screen and (max-width: 950px) {
+    .Links{
+        left: 750px;
+    }
+
+    .pag{
+        left: 620px;
+    }
+
+    .CdA{
+        left: 760px;
+        }
+        
+        .Ctt{
+        left: 760px;
+        }
+        
+        .Att{
+        left: 760px;
+        }
+        
+        .Pag{
+        left: 760px;
+        }
+        
+        .It{
+            left: 630px;         
+        }
+        
+        .Comp{
+            left: 630px;    
+        }
+        
+        .Sob{
+            left: 630px;
+        }
+        
+        .Atd{
+            left: 630px;
+        }
+
+}
+
+
+@media screen and (max-width: 900px) {
+    .hm {
+        display: block;
+        position: relative;
+        bottom: 49px;
+        right: 400px;
+    }
+    
+    .Links{
+        left: 700px;
+    }
+
+    .pag{
+        left: 580px;
+    }
+
+    .CdA{
+        left: 710px;
+        }
+        
+        .Ctt{
+        left: 710px;
+        }
+        
+        .Att{
+        left: 710px;
+        }
+        
+        .Pag{
+        left: 710px;
+        }
+        
+        .It{
+            left: 590px;         
+        }
+        
+        .Comp{
+            left: 590px;    
+        }
+        
+        .Sob{
+            left: 590px;
+        }
+        
+        .Atd{
+            left: 590px;
+        }
+
+
+}
+
+@media screen and (max-width: 850px) {
+    
+    .Links{
+        left: 640px;
+    }
+
+    .pag{
+        left: 530px;
+    }
+
+    .CdA{
+        left: 650px;
+        }
+        
+        .Ctt{
+        left: 650px;
+        }
+        
+        .Att{
+        left: 650px;
+        }
+        
+        .Pag{
+        left: 650px;
+        }
+        
+        .It{
+            left: 540px;         
+        }
+        
+        .Comp{
+            left: 540px;    
+        }
+        
+        .Sob{
+            left: 540px;
+        }
+        
+        .Atd{
+            left: 540px;
+        }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .hm {
+        display: block;
+        position: relative;
+        bottom: 49px;
+        right: 500px;
+    }
+
+
+    .bannervec img{
+        position: relative;
+        width: 70%;
+        top: 370px;
+    }
+
+    .carousel-item{
+        height: 340px;
+    }
+
+    .fundo{
+        position: absolute;
+    width: 462.43px;
+    height: 55.92px;
+    left: 147.6px;
+    top: 1887px;
+    }
+    
+    .indie h2{
+        position: absolute;
+    width: 326px;
+    height: 39px;
+    left: 227px;
+    top: 1900px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+    }
+    
+    .indieimg{
+        position: absolute;
+    width: 420px;
+    height: 304px;
+    left: 160px;
+    top: 1570px;
+    }
+
+    .logo2{
+        position: relative;
+        margin: auto;
+        display: block;
+        width: 15%;
+        height: 121px;
+        padding: 25px;
+        top: 70px;
+        right: 35px;
+    }
+    
+    .contato{
+        height: 256px;
+        position: relative;
+        top: 490px;
+        border: 1px solid #000000;
+    }
+
+    .indie h1{
+        position: relative;
+        top: 500px;
+        left: 80px;
+    }
+
+    .jogos{
+        background-color: rgb(255, 255, 255);
+    border: #000000;
+    border: 1px solid #000000;;
+    height: 110px;
+    }
+
+
+    .posicionamento-jogos img{
+        position: relative;
+        height: 70px;
+        width: 70px;
+        right: 70px;
+    }
+
+    .Linha img{
+        width: 1px;
+    }
+    
+    .Links{
+        left: 600px;
+    }
+
+    .pag{
+        left: 500px;
+    }
+
+    .CdA{
+        left: 610px;
+        }
+        
+        .Ctt{
+        left: 610px;
+        }
+        
+        .Att{
+        left: 610px;
+        }
+        
+        .Pag{
+        left: 610px;
+        }
+        
+        .It{
+            left: 510px;         
+        }
+        
+        .Comp{
+            left: 510px;    
+        }
+        
+        .Sob{
+            left: 510px;
+        }
+        
+        .Atd{
+            left: 510px;
+        }
+
+}
+
+@media screen and (max-width: 750px) {
+    .Links{
+        left: 570px;
+    }
+
+    .pag{
+        left: 470px;
+    }
+
+    .CdA{
+        left: 580px;
+        }
+        
+        .Ctt{
+            left: 580px;
+        }
+        
+        .Att{
+            left: 580px;
+        }
+        
+        .Pag{
+            left: 580px;
+        }
+        
+        .It{
+            left: 480px;         
+        }
+        
+        .Comp{
+            left: 480px;   
+        }
+        
+        .Sob{
+            left: 480px;
+        }
+        
+        .Atd{
+            left: 480px;
+        }
+}
+
+
+@media screen and (max-width: 700px) {
+    .hm {
+        display: block;
+        position: relative;
+        bottom: 49px;
+        right: 600px;
+    }
+
+    .fundo{
+        position: absolute;
+    width: 462.43px;
+    height: 55.92px;
+    left: 107px;
+    top: 1887px;
+    }
+    
+    .indie h2{
+        position: absolute;
+    width: 326px;
+    height: 39px;
+    left: 197px;
+    top: 1900px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+    }
+    
+    .indieimg{
+        position: absolute;
+    width: 420px;
+    height: 304px;
+    left: 130px;
+    top: 1570px;
+    }
+
+    .logo2{
+        position: relative;
+        margin: auto;
+        display: block;
+        width: 15%;
+        height: 121px;
+        padding: 25px;
+        top: 70px;
+        right: 35px;
+    }
+    
+    .contato{
+        height: 256px;
+        position: relative;
+        top: 490px;
+        border: 1px solid #000000;
+    }
+
+    .indie h1{
+        position: relative;
+        top: 500px;
+        left: 30px;
+    }
+
+    .Links{
+        left: 540px;
+    }
+
+    .pag{
+        left: 450px;
+    }
+
+    .CdA{
+        left: 550px;
+        }
+        
+        .Ctt{
+        left: 550px;
+        }
+        
+        .Att{
+        left: 550px;
+        }
+        
+        .Pag{
+        left: 550px;
+        }
+        
+        .It{
+            left: 460px;         
+        }
+        
+        .Comp{
+            left: 460px;    
+        }
+        
+        .Sob{
+            left: 460px;
+        }
+        
+        .Atd{
+            left: 460px;
+        }
+}
+
+@media screen and (max-width: 670px) {
+    .LinkC{
+        display: none;
+    }
+
+    .paginas{
+        display: none;
+    }
+    .indie h1{
+        position: relative;
+        top: 530px;
+        left: 00px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .fundo{
+        position: absolute;
+    width: 462.43px;
+    height: 55.92px;
+    left: 107px;
+    top: 1887px;
+    }
+    
+    .indie h2{
+        position: absolute;
+    width: 326px;
+    height: 39px;
+    left: 197px;
+    top: 1900px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+    }
+    
+    .indieimg{
+        position: absolute;
+    width: 420px;
+    height: 304px;
+    left: 130px;
+    top: 1570px;
+    }
+
+    .logo2{
+        position: relative;
+        margin: auto;
+        display: block;
+        width: 15%;
+        height: 121px;
+        padding: 25px;
+        top: 70px;
+        right: 35px;
+    }
+    
+    .contato{
+        height: 256px;
+        position: relative;
+        top: 490px;
+        border: 1px solid #000000;
+    }
+
+    .indie h1{
+        position: relative;
+        top: 530px;
+        left: 00px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    .hm {
+        display: block;
+        position: relative;
+        bottom: 49px;
+        right: 700px;
+    }
+    
+}
+
+
+@media screen and (max-width: 500px) {
+    .hm {
+        display: block;
+        position: relative;
+        bottom: 120px;
+        right: 800px;
+    }
+
+    .bannervec img{
+        position: relative;
+        width: 100%;
+        top: 370px;
+    }
+
+    .logo{
+        position: relative;
+        width: 100%;
+        top: 00px;
+        left: 110px;
+    }
+
+    .jogos{
+        background-color: rgb(255, 255, 255);
+    border: #000000;
+    border: 1px solid #000000;;
+    height: 110px;
+    }
+
+
+    .posicionamento-jogos img{
+        position: relative;
+        height: 70px;
+        width: 70px;
+        right: 70px;
+    }
+
+    .Linha img{
+        width: 1px;
+    }
+
+    .card{
+        display: none;
+    }
+
+    .carda{
+        display: flex;
+        border: 1px solid #000000;
+        position: relative;
+        left: 70px;
+        background-color: #e2e2e2;
+        justify-items: auto;
+    }
+
+    .card-image-top{
+        border: 2px solid #000000;
+    }
+
+    .DC{
+        position: relative;
+        top: 70px;
+    }
+
+    .cardb{
+        border: 2px solid #000000;
+        background-color: #e2e2e2;
+        position: relative;
+        left: 50px;
+    }
+
+    .cardsb{
+        display: flex;
+    }
+
+    .fundo{
+        position: absolute;
+    width: 400px;
+    height: 50px;
+    left: 20px;
+    top: 2760px;
+    }
+    
+    .indie h2{
+        position: absolute;
+    width: 326px;
+    height: 39px;
+    left: 70px;
+    top: 2770px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #000000;
+    }
+    
+    .indieimg{
+        position: absolute;
+    width: 420px;
+    height: 304px;
+    left: 10px;
+    top: 2410px;
+    }
+
+    .logo2{
+        position: relative;
+        margin: auto;
+        display: block;
+        width: 15%;
+        height: 121px;
+        padding: 25px;
+        top: 70px;
+        right: 65px;
+    }
+    
+    .contato{
+        height: 256px;
+        position: relative;
+        top: 390px;
+        border: 1px solid #000000;
+    }
+
+    .indie h1{
+        display: none;
+    }
+
+    .jogosc{
+        border: none;
+    }
+
+    .indie h3{
+        display: inline;
+        position: relative;
+        top: 350px;
+        font-size: 20px;
+        word-break: normal;
+        font-style: bold;
+        font-weight: 10px;
+    }
+
+    .cards{
+        border: none;
+    }
+    
+    .CardsD{
+        border: none;
+    }
+
+    .email{
+        position: relative;
+        left: 90px;
+        bottom: 60px;
+    }
+
+    .Eme{
+        left: 110px;
+    bottom: 190px;
+    }
 }
