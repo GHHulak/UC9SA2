@@ -1,0 +1,67 @@
+/* CSS RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { overflow-x: hidden; }
+
+
+.bnad{
+    background-color: white;
+    height: 540px;
+    border: 1px solid #000000;
+    border-top: none;
+}
+
+.rec{
+    background-color: rgb(255, 255, 255);
+    height: 60px;
+    border: 1px solid #000000;;
+    border-bottom: none;
+    margin-top: 10px;
+}
+
+.ll{
+    
+}
+
+.formu{
+    position: relative;
+    top: 50px;
+    align-items: center;
+    padding: 50px;
+    background-color: #e2e2e2;
+}
+
+.container{
+    align-items: center;
+    border: 1px solid #000000;
+}
+
+
+.menu{
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .formu{
+        top: 10px;
+    }
+
+    .bnad{
+        background-color: white;
+        height: 540px;
+        border: 1px solid #000000;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .container{
+        border-top: none;
+    }
+
+}
+
+
